@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+  <head>
+    <title>Mihai Radu Fotograf - Contact</title>
+    <meta
+      name="description"
+      content="Mihai Radu photography portfolio website"
+    />
+    <meta
+      name="description"
+      content="Mihai Radu photographer portfolio website"
+    />
+    <meta name="description" content="Mihai Radu fotograf - website personal" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Site de prezentare, galerie foto cu lucrari recente si link-urile mele de contact"
+    />
+    <link rel="canonical" href="https://radufoto.netlify.app/" />
+    <meta property="og:title" content="Mihai Radu fotograf" />
+    <meta
+      property="og:description"
+      content="Site de prezentare, galerie foto cu lucrari recente si link-urile mele de contact"
+    />
+    <meta property="og:site_name" content="Mihai Radu" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ro_RO" />
+    <meta property="og:url" content="https://radufoto.netlify.app/" />
+    <!-- <meta property="og:image" content="./og-image.jpg" /> -->
+    <!-- <meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" /> -->
+    <meta
+      property="og:image:alt"
+      content="Site de prezentare, galerie foto cu lucrari recente si link-urile mele de contact"
+    />
+    <!-- <meta property="article:publisher" content="https://www.facebook.com/../" /> -->
+    <meta
+      property="article:section"
+      content="Site de prezentare si galerie foto cu lucrari personale"
+    />
+    <meta
+      property="article:published_time"
+      content="2022-04-07T23:27:55+03:00"
+    />
+    <meta
+      property="article:modified_time"
+      content="2022-04-08T23:27:57+03:00"
+    />
+    <!-- <meta name="twitter:site" content="@mihai_radu_photography" /> -->
+    <!-- <meta name="twitter:creator" content="@mihai_radu_photography" /> -->
+    <!-- <meta name="twitter:card" content="summary_large_image" /> -->
+
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/x-icon" href="../icon-color-512.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ----for social icons -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- ------------------ -->
+
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/contact.css" media="all" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/gallery.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="overlay has-fade"></div>
+
+      <nav class="container container--pall flex flex-jc-sb flex-ai-c">
+        <a href="../index.html" class="header__logo">
+          <img src="../img/logo-desktop.svg" alt="logo" />
+        </a>
+
+        <a id="btnHamburger" class="header__toggle hide-for-desktop">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+
+        <div class="header__links hide-for-mobile">
+          <a href="../index.html">Acasă</a><a href="./Despre.html">Despre</a
+          ><a href="./Galerie.html">Galerie</a
+          ><a href="./Preturi.html">Prețuri</a
+          ><a href="./Contact.html">Contact</a>
+        </div>
+      </nav>
+
+      <div class="header__menu has-fade">
+        <a href="../index.html">Acasă</a>
+        <a href="./Despre.html">Despre</a>
+        <a href="./Galerie.html">Galerie</a>
+        <a href="./Preturi.html">Prețuri</a>
+        <a href="./Contact.html">Contact</a>
+      </div>
+    </header>
+
+    <main class="container__continut contact">
+      <div class="contact-text-container">
+        <div class="title-contact">
+          <h1>CONTACTEAZĂ-MĂ!</h1>
+          <h2>Vrei să vorbim?</h2>
+        </div>
+        <div class="text-contact">
+          <p>
+            Indiferent dacă ești în căutarea unui fotograf de nuntă și dorești
+            să mă întrebi de disponibilitate, sau doar pentru a bea o cafea cu
+            mine, mi-ar plăcea să primesc mesaj de la tine.
+          </p>
+          <p>
+            Cel mai simplu mod de a intra în contact este formularul de mai jos
+            – îmi propun să revin cu răspuns la toate întrebările în 24 de ore.
+          </p>
+          <p>
+            Există alternative de comunicare, cum ar fi porumbeii voiajori sau
+            semnalele de fum, dar este de preferat formularul de mai jos.
+          </p>
+
+          <p>
+            Dacă sunteți de modă veche, adresa și numărul meu de telefon sunt
+            mai jos.
+          </p>
+        </div>
+      </div>
+  
+      <div class="form_container">
+        <form
+          action="contact.html"
+          method="POST"
+          class="form"
+          data-netlify="true"
+        >
+          <div class="form-group">
+            <label for="name" class="form-label">Nume</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+              placeholder="Numele tău"
+              tabindex="1"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="Email-ul tău"
+              tabindex="2"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="subject" class="form-label">Subiect</label>
+            <input
+              type="text"
+              class="form-control"
+              id="subject"
+              name="subject"
+              placeholder="Subiect"
+              tabindex="3"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">Mesaj</label>
+            <textarea
+              class="form-control"
+              rows="5"
+              cols="50"
+              id="message"
+              name="message"
+              placeholder="Scrie un mesaj..."
+              tabindex="4"
+            ></textarea>
+          </div>
+          <div class="div-btn">
+            <button type="submit" class="btn">Trimite mesajul!</button>
+          </div>
+        </form>
+      </div>
+
+       
+ 
+
+      <br />
+
+      <section class="red-bar-2">
+        <div class="red-bar-2-container">
+          <h3>DATE DE CONTACT:</h3>
+
+          <div>
+            <a href="https://goo.gl/maps/eN9wxaPjGy83QpnZ8"
+              >Nr.69B, Moreni, Județul Dâmbovița</a
+            >
+          </div>
+
+          <div>
+            <a
+              href="mailto:raduu.mihai@gmail.com"
+              title="Trimite-mi un email acum!"
+              >raduu.mihai@gmail.com</a
+            >
+          </div>
+
+          <div>
+            <a href="tel:0726 370 070" title="Sună-mă să vorbim acum!"
+              >0726 370 070</a
+            >
+          </div>
+        </div>
+
+        <div class="social">
+          <div class="social-menu">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/MihaiRaduPhotography">
+                  <i
+                    class="bx bxl-facebook"
+                    alt="facebook"
+                    title="Vezi pagina mea de facebook!"
+                  ></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <i
+                    class="bx bxl-twitter"
+                    alt="twitter"
+                    title="Vezi profilul meu de Twitter!"
+                  ></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/mihai_radu_photography/">
+                  <i
+                    class="bx bxl-instagram"
+                    alt="instagram"
+                    title="Vezi profilul meu de Instagram!"
+                  ></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://wa.me/40726370070">
+                  <i
+                    class="bx bxl-whatsapp"
+                    alt="whatsapp"
+                    title="Hai să vorbim pe Whatsapp!"
+                  ></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="copyright">
+        <p>&copy; 2022 All right reserved by Mihai Radu Photography</p>
+      </section>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <svg
+        class="material-icons"
+        xmlns="http://www.w3.org/2000/svg"
+        height="30px"
+        viewBox="0 0 24 24"
+        width="30px"
+        fill="#e14a4a"
+      >
+        <path d="M0 0h24v24H0V0z" fill="none" />
+        <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
+      </svg>
+    </a>
+
+    <!--========== SCROLL TOP ==========-->
+    <script src="../js/contact.js"></script>
+    <script src="../script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+  <head>
+
+    <meta name="description" content="Mihai Radu photography portfolio website">
+    <meta name="description" content="Mihai Radu photographer portfolio website">
+    <meta name="description" content="Mihai Radu fotograf - website personal">
+    
+
+    <!--========== pt PWA start==========-->
+    <meta name="theme-color" content="#0f0f12" />
+    <link rel="manifest" href="manifest.json" crossorigin="use-credentials" />
+    <link rel="apple-touch-icon" href="./icon-color-192.png" />
+    <meta charset="UTF-8" />
+   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./icon-color-192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./icon-color-192.png"
+    />
+    <link rel="icon" type="image/x-icon" href="./icon-color-512.png" />
+
+    <meta name="MobileOptimized" content="320"/> 
+    <meta name="HandheldFriendly" content="true"/> 
+    <!--=========== pt PWA end===========-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <!-- SEO -->
+    <title>Mihai Radu Fotograf</title>
+		<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="description" content="Site de prezentare, galerie foto cu lucrari recente si link-urile mele de contact" />
+		<link rel="canonical" href="https://radufoto.netlify.app/" />
+		<meta property="og:title" content="Mihai Radu fotograf" />
+		<meta property="og:description" content="Site de prezentare, galerie foto cu lucrari recente si link-urile mele de contact" />
+		<meta property="og:site_name" content="Mihai Radu" />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="ro_RO" />
+		<meta property="og:url" content="https://radufoto.netlify.app/" />
+		<!-- <meta property="og:image" content="./og-image.jpg" /> -->
+		<!-- <meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" /> -->
+		<meta property="og:image:alt" content="Site de prezentare, galerie foto cu lucrari recente si link-urile mele de contact" />
+		<!-- <meta property="article:publisher" content="https://www.facebook.com/../" /> -->
+		<meta property="article:section" content="Site de prezentare si galerie foto cu lucrari personale" />
+		<meta property="article:published_time" content="2022-04-07T23:27:55+03:00" />
+		<meta property="article:modified_time" content="2022-04-08T23:27:57+03:00" />
+		<!-- <meta name="twitter:site" content="@mihai_radu_photography" /> -->
+		<!-- <meta name="twitter:creator" content="@mihai_radu_photography" /> -->
+		<!-- <meta name="twitter:card" content="summary_large_image" /> -->
+   
+    <!-- ----for social icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- ------------------ -->
+   
+    <!-- ----------- carousel-css ---------- -->
+    <link rel="stylesheet" href="./css/carousel.css">
+    <!-- ------------------ -->
+    <!-- ------- testimonials-css ----------- -->
+    <link rel="stylesheet" href="./css/testimonials.css">
+    <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
+    <!-- ------------------ -->
+
+   
+    
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+   
+    
+    <link rel="stylesheet" href="./style.css" />
+
+    
+  </head>
+  <body itemscope itemtype="https://schema.org/Person">
+    <header class="header">
+      <div class="overlay has-fade"></div>
+
+      <nav class="container container--pall flex flex-jc-sb flex-ai-c" >
+        <a href="./index.html" class="header__logo">
+          <img src="./img/logo-desktop.svg" alt="logo" />
+        </a>
+
+        <a id="btnHamburger"  class="header__toggle hide-for-desktop">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+
+        <div class="header__links hide-for-mobile">
+          <a href="./index.html">Acasă</a><a href="./pages/Despre.html">Despre</a
+          ><a href="./pages/Galerie.html">Galerie</a><a href="./pages/Preturi.html">Prețuri</a
+          ><a href="./pages/Contact.html">Contact</a>
+        </div>
+      </nav>
+
+      <div class="header__menu has-fade">
+        <a href="./index.html">Acasă</a>
+        <a href="./pages/Despre.html">Despre</a>
+        <a href="./pages/Galerie.html">Galerie</a>
+        <a href="./pages/Preturi.html">Prețuri</a>
+        <a href="./pages/Contact.html">Contact</a>
+      </div>
+    </header>
+
+    <main class="container__continut" itemscope itemtype="https://schema.org/Person">
+      <section class="hero">
+        <div class="hero-image"></div>
+
+       <div class="banner-hero">
+        <div class="hero-text">
+           <h1>Bun venit,<span> eu sunt Radu. </span></h1>
+           <h2>
+            Un <span> fotograf </span> al cărui scop este simplu: fără "cheese", fără clișee – doar fotografii vibrante, distractive și naturale la fel de uimitoare ca și tine.
+           </h2>
+         
+          </div>
+
+          <!-- <div class="down-arrow">
+            <a href="#one" id="scroll-down" class="more scrolly">
+              <img src="./img/icons/down-arrow-red.svg" width="100">
+            </a>
+        </div> -->
+
+        </div>
+      </section>
+      
+    
+
+     <!-- =======================alb============================= -->
+     
+       <div id="one" class="alb__container">
+        <section class="red-bar-1">
+          <p>
+            SUNT FOTOGRAF DEDICAT ÎN SERVIREA OAMENILOR FINI DIN ROMÂNIA ȘI NU NUMAI, SPECIALIZAT ÎN PORTRETE, STIL DE VIAȚĂ, FOTOGRAFIE COMERCIALĂ ȘI DE ACȚIUNE.
+          </p>
+        </section>
+        <section class="about-1 cs">
+        <img
+        src="./img/profile picture.jpg"
+        alt="profile picture"
+        width="600"
+      />
+      <div class="text_section">
+        <h3 class="h3-mic">ÎN SPATELE OBIECTIVULUI</h3>
+        <h2>Despre Mine</h2>
+          <p>Locuiesc în Dâmbovița, dar în mod fregvent călătoresc în toată România și în străinătate spre destinațiile alese de clienți, pentru diverse evenimente.
+          </p>
+          <p>
+            De exemplu- în ziua nunții tale mă vei găsi căutând acele momente neașteptate care fac cele mai bune amintiri: mama și tata dându-si unul altuia o strângere în timpul jurămintelor, domnișoarele de onoare îmbrățișându-se, cavalerii de onoare împărțind câteva "shoot-uri" înainte de ceremonie sau unchiul tău pe ringul de dans...
+          </p>  
+          <p>
+            Dar îmi fac timp și pentru fotografii relaxate de familie, precum și pentru fotografii de cuplu. Voi captura rapid acele portrete epice la apus și apoi ne întoarcem la petrecere.
+          </p>
+         <div class="btn-hero to">
+          <form method="get" action="./pages/Despre.html">
+            <button type="submit">Mai mult</button>
+          </form>
+        </div>
+        
+      </section>
+
+      </div>
+       </div>
+        
+     <!-- =======================verde============================= -->
+
+<div class="verde__container">
+
+  <section class="sectiunea-2 cs">
+    <div class="right-pictures" style="font-size: 0">
+      <img src="./img/right_photo-1.png" alt="picture" width="800" />
+    </div>
+    <div class="left-text_section">
+      <h3 class="h3-mic">CEREMONIE, PETRECERE</h3>
+      <h2>Fotografie de nuntă</h2>
+      <p>
+        Fiecare nuntă, la fel ca fiecare cuplu, este total unică, așa că eu niciodată nu voi dicta ceva în ziua respectivă.</p>
+        <p>Urmăresc evenimentul asa cum el se desfășoară în mod natural și surprind ce se întâmplă așa cum se întâmplă.</p>   <p>Singura dată când voi coregrafia este momentul fotografiilor de grup, dacă le doriți, și asta doar pentru a le termina cât mai repede posibil pentru a vă oferi mai mult timp pentru invitati, petrecere și
+        dans!</p>
+    </div>
+  </section>
+
+  <section class="sectiunea-3 cs">
+    <div class="left-pictures" style="font-size: 0">
+      <img src="./img/left_photo-1.png" alt="picture" width="800" />
+    </div>
+    <div class="right-text_section">
+      <h3 class="h3-mic">ÎDRĂGOSTIȚI, FAMILIE SI COPII</h3>
+      <h2>Fotografia unei povești de dragoste</h2>
+      <p>
+        Sunt specializat în fotografie personalizată de bebeluși, copii, fotografii de familie. Toate sesiunile se pot face în confortul unui studio foto profesionist sau chiar la tine acasă!
+      </p>
+    </div>
+  </section>
+
+</div>
+
+     <!-- =======================roz============================= -->
+  
+  <div class="roz__container">
+
+    <section class="sectiunea-4 cs">
+      <div class="right-pictures" style="font-size: 0">
+        <img src="./img/right_photo-2.png" alt="picture" width="800" />
+      </div>
+      <div class="left-text_section">
+        <h3 class="h3-mic">RETUȘARE</h3>
+        <h2>Fotografie de Produs</h2>
+        <p>
+          Sunt fotograf de produs și retușator fotografic cu experiență in: fotografierea in studio, manipulare a imaginii, retușare, compoziție, restaurare, tăiere/mascare a imaginii și corecție de culoare ,folosind Adobe Photoshop CC și Adobe Lightroom. 
+        </p>
+        
+      </div>
+    </section>
+
+    <section class="sectiunea-3 cs">
+      <div class="left-pictures" style="font-size: 0">
+       <img src="./img/left_photo-2.png" alt="profile picture" width="800" />
+      </div>
+      <div class="right-text_section">
+        <h3 class="h3-mic">ÎN MIȘCARE</h3>
+        <h2>Evenimente Sportive</h2>
+        <p>
+          Dacă ești în căutarea unui fotograf care să obțină acele fotografii de acțiune, atunci eu sunt fotograful tău!
+        </p>
+        <p>Scopul meu este să ofer acele fotografii profesionale de acțiune și de calitate, la care fiecare sportiv visează să le obțină din timpul carierei sale.</p>
+      </div>
+    </section>
+
+    </section>
+  </div>
+
+
+
+
+    <!-- ==============================galben========================== -->
+      <div class="galben__container">
+
+        <div class="carusel-title">
+          <h1>Câteva din lucrările mele.</h1>
+        </div>
+
+  
+        <div class="slideshow-container">
+
+         
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 7</div>
+            <img src="./img/carousel01.jpg" style="width:100%">
+        </div>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 7</div>
+            <img src="./img/carousel02.jpg" style="width:100%">
+        </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 7</div>
+            <img src="./img/carousel03.jpg" style="width:100%">
+        </div>
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 7</div>
+            <img src="./img/carousel04.jpg" style="width:100%">
+        </div>
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 7</div>
+            <img src="./img/carousel05.jpg" style="width:100%">
+        </div>
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 7</div>
+            <img src="./img/carousel06.jpg" style="width:100%">
+        </div>
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 7</div>
+            <img src="./img/carousel07.jpg" style="width:100%">
+        </div>
+  
+          <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+  
+      </div>
+
+
+
+      <!-- <br> -->
+<!--   
+      <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+      </div> -->
+
+        <div class="to carousel-to">
+          <form method="get" action="./pages/Galerie.html">
+          <button type="submit">Vezi mai multe!</button>
+        </form>
+        </div>
+
+      </div>
+     
+      <div class="container-testimonials">
+        <h2>RECENZII</h2>
+
+        <div class="size-test">
+      
+          <section class="testim" id="testim">
+            <div class="wrap">
+    
+                <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                <span id="left-arrow" class="arrow left fa fa-chevron-left"></span>
+    
+                <ul class="dots" id="testim-dots">
+                    <li class="dot active"></li>
+                    <li class="dot"></li>
+                    <li class="dot"></li>
+                    <li class="dot"></li>
+                    <li class="dot"></li>
+                    <li class="dot"></li>
+                </ul>
+    
+                <div class="cont" id="testim-content">
+    
+                    <div class="active">
+                        <div class="img"><img src="./img/testimonial-avatar/Anca Elena Dragoi.jpg"></div>
+                        <h2>Anca Elena Dragoi</h2>
+                        <p>“ Recomand cu cea mai mare încredere acest om extraordinar pentru o ședință de neuitat,și amintiri pentru o viață! Mulțumim din suflet! “</p>
+                    </div>
+                    
+                    <div>
+                        <div class="img"><img src="./img/testimonial-avatar/Necula Daniela Ioana.jpg"></div>
+                        <h2>Necula Daniela Ioana</h2>
+                        <p>“ Recomand cu toată inima! Mulțumim Radu pentru răbdare, implicare și profesionalism! Datorita ție am reușit să avem niște amintiri super frumoase! Îți mulțumim din suflet! “</p>
+                    </div>
+                    
+                    <div>
+                        <div class="img"><img src="./img/testimonial-avatar/Ramona Mihaela.jpg"></div>
+                        <h2>Ramona Mihaela</h2>
+                        <p>“ Radu este pregătit să facă pe orice persoană cu care colaborează să se simtă bine la ședința foto cu el, este un adevărat profesionist iar noi am făcut o super echipa cu el. Mulțumim! ”</p>
+                    </div>
+                    
+                    <div>
+                        <div class="img"><img src="./img/testimonial-avatar/Gabriela Feraru.jpg"></div>
+                        <h2>Gabriela Feraru</h2>
+                        <p>“ Un fotograf cu multă experiență și multă răbdare, fotografiile
+                          sunt minunate! Recomand 100%!! ”</p>
+                    </div>
+                    
+                    <div>
+                        <div class="img"><img src="./img/testimonial-avatar/Alexandra-Elena Dinu.jpg"></div>
+                        <h2>Alexandra-Elena Dinu</h2>
+                        <p>“ Recomand cu mare drag! A fost o experienta plăcută, mai ales
+                          pentru un pitic de 9 luni, care nu sta foarte bine la capitolul
+                          răbdare. Mulțumim pentru poze și amabilitatea cu care am fost
+                          primiți! “</p>
+                    </div>
+                    <div>
+                        <div class="img"><img src="./img/testimonial-avatar/Helici Cristina Georgiana.jpg"></div>
+                        <h2>Helici Cristina Georgiana</h2>
+                        <p>“ Recomand cu încredere!! Profesionalism, răbdare, implicare,
+                          seriozitate. Mulțumim din suflet!! “</p>
+                    </div>
+                </div>
+    
+            </div>
+          </section>
+
+
+
+
+
+        </div>
+      </div>
+
+      <section class="red-bar-2">
+        <div class="red-bar-2-container">
+          <h3>DATE DE CONTACT:</h3>
+
+          <div>
+            <a href="https://goo.gl/maps/eN9wxaPjGy83QpnZ8"
+              >Nr.69B, Moreni, Județul Dâmbovița</a
+            >
+          </div>
+
+          <div>
+            <a
+              href="mailto:raduu.mihai@gmail.com"
+              title="Trimite-mi un email acum!"
+              >raduu.mihai@gmail.com</a
+            >
+          </div>
+
+          <div>
+            <a href="tel:0726 370 070" title="Sună-mă să vorbim acum!"
+              >0726 370 070</a
+            >
+          </div>
+        </div>
+
+        <div class="social">
+          <div class="social-menu">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/MihaiRaduPhotography">
+                  <i
+                    class="bx bxl-facebook"
+                    alt="facebook"
+                    title="Vezi pagina mea de facebook!"
+                  ></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <i
+                    class="bx bxl-twitter"
+                    alt="twitter"
+                    title="Vezi profilul meu de Twitter!"
+                  ></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/mihai_radu_photography/">
+                  <i
+                    class="bx bxl-instagram"
+                    alt="instagram"
+                    title="Vezi profilul meu de Instagram!"
+                  ></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://wa.me/40726370070">
+                  <i
+                    class="bx bxl-whatsapp"
+                    alt="whatsapp"
+                    title="Hai să vorbim pe Whatsapp!"
+                  ></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="copyright">
+        <p>&copy; 2022 All right reserved by Mihai Radu Photography</p>
+      </section>
+    </main>
+
+
+
+
+
+    <!-- =======carousel images======= -->
+    <script src="./js/carousel.js"></script>
+    <!-- =======testimonials======= -->
+    <script src="./js/testimonials.js"></script>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 24 24" width="30px" fill="#e14a4a"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/></svg>
+    </a>
+    <!--========== SCROLL TOP ==========-->
+
+    <script src="script.js"></script>
+    <!-- ------pwa----- -->
+    <script src="./index.js"></script>
+    <!-- ------pwa----- -->
+
+   
+
+  </body>
+</html>

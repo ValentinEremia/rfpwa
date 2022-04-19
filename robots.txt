@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: /login
+
+
+Sitemap: https://radufoto.netlify.app/sitemap.xml
+
