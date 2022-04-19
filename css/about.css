@@ -1,0 +1,121 @@
+
+
+html{
+  scroll-behavior: smooth;
+ 
+}
+/* ----------paralax----------- */
+
+
+.paralax{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 102.5vh;
+  background: url(../img/fundal-about.jpg) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #292929;
+  /* font-family: 'lato'; */
+  margin-top: -3.5rem;
+  flex-direction: column;
+  
+}
+.paralax h2{
+  margin-top: 20vh;
+  word-spacing: .6rem;
+  text-align: center;
+
+}
+
+.down-arrow{
+  
+  width: 100%;
+  height: 30vh;
+ 
+ display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
+}
+
+.down-arrow a {
+color: rgb(8, 8, 8);
+text-decoration: none;
+
+align-items: center;
+justify-content: center;
+display: flex;
+
+}
+.down-arrow a img{
+  width: 2.6rem;
+  height: 2.6rem;
+  background-color:rgba(199, 231, 233, 0.49);
+  border-radius: 50%;
+}
+
+/* -------------about-page__container--------- */
+.despre{
+  box-shadow: none !important;
+}
+
+.container__continut .about-1 .text_section h2{
+padding-top: 1.5rem;
+}
+.about-page__container{
+    width: 100%;
+   
+    background-color: #f9f5f4;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-page__container .about-1{
+    background-color: #f9f5f4 ;
+  }
+  @media (min-width:480px){
+    .paralax{
+      /* font-size:1.4rem ; */
+      word-spacing: .7rem;
+    }
+  }
+  @media (min-width:768px){
+    .paralax{
+      font-size:1.2rem ;
+      word-spacing: .8rem;
+    }
+    .container__continut .about-1 .text_section h2{
+      padding-top: 0;
+      }
+
+  }
+  @media (min-width:1025px){
+
+
+   
+ 
+    /* .paralax{
+      background-attachment: fixed;
+      height: 102vh;
+      font-size:1.4rem ;
+      word-spacing: 1rem;
+    } */
+    /* .about-page__container{
+      height: 102vh;
+    } */
+  }
+
+  @media (min-width:1600px) {
+    .paralax{
+      background-attachment: fixed;
+      height: 102vh;
+      font-size:1.4rem ;
+      word-spacing: 1rem;
+    }
+  }

@@ -1,0 +1,146 @@
+
+h2{font-size:2rem}
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+.pricing-text-container{
+    color: #3f3f3f;
+    padding-top: 6vh;
+    padding-bottom: 2rem;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+    width: 90%;
+}
+
+.title-pricing{
+    text-align: center;
+    margin-bottom: 1rem;
+    /* font-family: 'lato'; */
+}
+.title-pricing h1{
+    font-size:1.3rem ;
+}
+.title-pricing h2{
+    font-size: 2rem;
+    
+}
+
+.deals{
+    /* font-size: .9rem; */
+    width: 90%;
+   
+    color: #3f3f3f;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    /* gap: .5rem; */
+    justify-content: space-around;
+}
+
+.deals .package{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.8rem;
+    flex: 1 1 33%;
+    
+}
+.deals ul {
+    list-style: none;
+    padding: 1rem;
+    text-align: center;
+    /* line-height: normal; */
+    
+}
+
+.package ul li { 
+    margin-bottom: .5rem;
+    border-bottom: 1px solid rgb(211, 217, 217);
+   
+}
+.package ul li:last-child {
+    border:none;
+}
+
+.package h3{
+    margin: .2rem 0 .8rem 0;
+    text-align: center;
+
+}
+.package h4 {
+    margin: 2rem 0 0 0 ;
+    font-size: .87rem;
+    text-align: center;
+}
+.package img{
+    margin: .2rem;
+width: 90vw;
+max-width: 350px;
+border-radius:6px ;
+}
+
+.please{
+    display: flex;
+    flex-direction: column;
+    color: #3f3f3f;
+    width: 100%;
+    height: fit-content;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #eee4e1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.please .text-please{
+    width: 90%;
+}
+
+.extra{
+    background-color: #fff;
+    margin-bottom: 1.8rem;
+    padding:3rem .5rem 1rem;
+}
+
+.fill-space{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+    background-color: #eee4e1;
+    color: #3f3f3f;
+
+}
+.fill-space p{
+    padding: .3rem;
+}
+.please p, .fill-space p{
+    text-indent: 0;
+}
+@media (min-width: 768px) {
+   
+    .pricing-text-container{
+       max-width: 65rem;
+    }
+    .deals{
+
+        max-width: 65rem;
+    }
+    .please .text-please{
+        max-width: 64rem;
+    }
+}

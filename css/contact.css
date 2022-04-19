@@ -1,0 +1,145 @@
+
+:root{
+    --font-color: #3f3f3f;
+    --font-hover-color:#e46261;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.contact-text-container{
+    padding-top: 6vh;
+    padding-bottom: 2rem;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    max-width: 900px;
+    width: 90%;
+    color: var(--font-color);
+
+}
+.title-contact{
+    text-align: center;
+    margin-bottom: 1rem;
+    /* font-family: 'lato'; */
+}
+.title-contact h1{
+    font-size:1.4rem ;
+}
+.title-contact h2{
+    font-size: 2rem;
+    
+}
+
+.container__continut .form_container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    font-family:"Raleway", sans-serif;
+    background-color:#f9f5f4;
+    padding-bottom: 10vh;
+
+}
+
+.form{
+    max-width: 700px;
+    width: 90vw; 
+}
+
+.form-group{
+   
+    margin-bottom:1.5em;
+    transition:all .3s;
+}
+
+.form-label{
+    font-size:.75em;
+    color:var(--font-color);
+    display:block;
+    opacity:0;
+    transition: all .3s;
+    transform:translateX(-50px);
+}
+.form-control{
+    box-shadow:none;
+    border-radius:5px;
+    border-color:#c1c1c1;
+    border-style:none none solid none;
+    width:100%;
+    font-size:1.2rem;
+    transition:all .6s;
+    padding: 6px 6px 6px 1rem;
+    
+}
+
+
+.form-control::placeholder{
+    color:#aaa;
+}
+.form-control:focus{
+    box-shadow:none;
+    border-color:var(--font-hover-color);
+    outline:none;
+}
+.form-group:focus-within{
+    transform:scale(1.1,1.1);
+}
+
+.form-control:invalid:focus{
+    border-color:red;
+}
+.form-control:valid:focus{
+    border-color:green;
+}
+
+.div-btn{
+    width: 100%;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+textarea{
+    resize:none;
+}
+
+
+.btn{
+    /* background-color: transparent; */
+    /* background: 0 0 #fff; */
+    border-radius: 5px;
+    width: 11rem;
+    /* font-weight: bold; */
+    height: 2.8rem;
+    font-size: 1em;
+    background-color: #cae4ed;
+    /* background-color: #d0e3e6; */
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.207);
+    border: 1.5px solid #f9f9f9;
+    color: #3f3f3f;
+    cursor: pointer;
+  }
+  .btn:hover{
+    transition: .4s;
+    border-color:var(--font-hover-color);
+    color:var(--font-hover-color);
+}
+ 
+  
+
+.focused > .form-label{
+    opacity:1;
+    transform:translateX(0px);
+
+}
+
+
+
+
